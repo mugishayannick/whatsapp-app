@@ -9,6 +9,7 @@
    padding: 15px 8px;
    position: absolute;
    left: 0;
+   cursor: pointer;
 }
 
 .right {
@@ -22,34 +23,36 @@
 
 .right span {
     color: var(--color-1);
+    cursor: pointer;
 }
 
 .container__down {
     padding: 9px;
     width: 100%;
     background-color: var(--background-color-4);
-    height: 7%;
-}
-
-form {
-    position: sticky;
+    height: 8%;
 }
 
 input {
-    position: absolute;
-    /* right: 0; */
     margin: auto  auto;
     width: 100%;
     border-radius: 5px;
     background-color: black;
     color: white;
-    padding: 5px 45px;
+    padding: 10px 45px;
     background-color: var(--background-color-3);
     border: 1px solid var(--background-color-3);
 }
 
 svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
-    overflow: visible;
-    box-sizing: content-box;
     color: #8696a0;
+    position: absolute;
+    left: 16px;
+    z-index: 1;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
 }

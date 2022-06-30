@@ -21,9 +21,15 @@ function leftNav() {
         </div>
         <div className="container__down">
            <form>
-           <label htmlFor="text"></label>
-           <FontAwesomeIcon icon={faSearch}/>
+           <label htmlFor="text" className='search-bar'>
+
+           <FontAwesomeIcon onClick={() => alert("hi!")} icon={faSearch}/>
            <input type="text"      placeholder="Search or start new chat"/>
+           
+
+           </label>
+           
+           
            </form>
 
         </div>
