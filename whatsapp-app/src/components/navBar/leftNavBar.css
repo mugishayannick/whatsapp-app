@@ -1,0 +1,336 @@
+.container {
+    position: relative;
+  display: flex;
+    height: 80px;
+    background-color: var(--background-color-3);
+ 
+ }
+ .msg-section{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+ }
+ 
+ .left {
+    padding: 15px 8px;
+    position: absolute;
+    left: 0;
+ }
+ 
+ .right {
+     padding: 15px 8px;
+     width: 40%;
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     right: 0;
+ }
+ 
+ .right span {
+     color: var(--color-1);
+ }
+ 
+ .container__down {
+     padding: 9px;
+     width: 100%;
+     background-color: var(--background-color-4);
+     height: 9%;
+ }
+ 
+ input {
+     position: relative;
+     margin: auto  auto;
+     width: 100%;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+     padding: 10px 45px;
+     background-color: var(--background-color-3);
+     border: 1px solid var(--background-color-3);
+ }
+ 
+ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+     color: #8696a0;
+     position: absolute;
+     left: 16px;
+     z-index: 1;
+ }
+ 
+ .search-bar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .messages {
+     position: relative;
+     display: flex;
+     height: 10%;
+     background-color: var(--background-color-3);
+  }
+ 
+  .image {
+     padding: 0px 15px 0px 13px;
+     position: absolute;
+     left: 0;
+     border-radius: 20%;
+     margin: -1px 0px 0px;
+     display: flex;
+  }
+  .user-name {
+     padding: 15px 8px;
+     width: 40%;
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     right: 0;
+ }
+ .message {
+     padding: 15px 8px;
+     width: 40%;
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     right: 0;
+ }
+ .notification{
+     display: flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     background-color: #53bdeb;
+     cursor: pointer;
+     
+ }
+ .notify{
+     flex: none;
+     overflow: hidden;
+     transform-origin: top center;
+ }
+ .nott{
+     padding: 13px 12px 14px 13px;
+     display: flex;
+     align-items: center;
+     min-height: 95px;
+ }
+ .noti{
+     flex: 0 0 49px;
+     color: var(--background-color-1);
+     cursor: pointer;
+ }
+ .not-icon{
+     margin-right: 15px;
+     color: var(--background-color-1);
+     flex: 0 0 49px;
+ }
+ .text{
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .note{
+     font-size: 16px;
+     line-height: 21px;
+     color: var(--surface-color-1);
+ }
+ .note0:hover{
+     text-decoration: underline;
+ }
+ .note-s{
+     color: var(--surface-color-1);
+     line-height: 19px;
+     font-size: 14px;
+     margin-top: 2px
+ }
+ .not{
+     display: block;
+ }
+ .no{
+     margin-left: 3px;
+     display: inline-block;
+     margin-top: 3px;
+     vertical-align: top;
+ }
+ .chat-list{
+     background-color: var(--background-color-4);
+     z-index: 1;
+     flex-grow: 1;
+     overflow-y: auto;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+ }
+ .list0{
+     height: auto;
+     position: relative;
+     overflow: hidden;
+ }
+ .chat-hov:hover{
+     background-color: var(--background-color-2);
+     
+ }
+ .list2{
+     cursor: pointer;
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     height: 72px;
+     pointer-events: all;
+ }
+ .list3{
+     display: flex;
+ }
+ .list4{
+     padding: 0 15px 0 13px;
+     margin-top: -1px;
+     flex: none;
+     align-items: center;
+     display: flex;
+ }
+ .list6{
+     height: 49px;
+     width: 49px;
+     border-radius: 50%;
+     position: relative;
+ }
+ .list7{
+     left: 0;
+     position: absolute;
+     top: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+ }
+ .list7 img{
+     border-radius: 50%;
+     opacity: 1;
+     position: relative;
+     display: block;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
+ .li1{
+     padding-right: -15px;
+     border-top: 1px solid var(--background-color-2);
+     display: flex;
+     flex-basis: auto;
+     flex-direction: column;
+     flex-grow: 1;
+     justify-content: center;
+     min-width: 0;
+ }
+ .li2{
+     text-align: left;
+     display: flex;
+     align-items: center;
+     line-height: normal;
+ }
+ .li3{
+     margin-top: 2px;
+     display: flex;
+     align-items: center;
+     min-height: 20px;
+     font-size: 13px;
+     line-height: 20px;
+ }
+ .li4{
+     text-align: left;
+     font-weight: 500;
+     display: flex;
+     flex-grow: 1;
+     overflow: hidden;
+     font-size: 17px;
+     font-weight: 400;
+     line-height: 21px;
+     color: var(--surface-color-1);
+ }
+ .li4 span .ticks{
+ 
+     display: flex;
+ }
+ .li5{
+     margin-top: 3px;
+     margin-left: 6px;
+     font-weight: 600;
+     color: var(--surface-icon-color2);
+     overflow: hidden;
+     line-height: 14px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     flex: none;
+     max-width: 100%;
+     font-size: 12px;
+ }
+ .li6{
+     visibility: visible;
+     overflow-y: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     display: inline-block;
+     flex-grow: 1;
+     overflow-x: hidden;
+     position: relative;
+     color: white;
+ }
+ .li7{
+     flex-grow: 1;
+     overflow: hidden;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+ .li8{
+     margin-left: 6px;
+     font-weight: 600;
+     color: var(--surface-icon-color2);
+     flex: none;
+     max-width: 100%;
+     font-size: 12px;
+     line-height: 20px;
+     
+ }
+ .li9{
+     display: flex;
+     align-items: flex-start;
+ }
+ .li10{
+     visibility: visible;
+     overflow-y: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     display: inline-block;
+     flex-grow: 1;
+     overflow-x: hidden;
+     position: relative;
+     color: #8696a0;
+ }
+ .li12{
+     margin-right: 0;
+     margin-right: 5px;
+     display: inline-block;
+     vertical-align: top;
+ }
+ .li13{
+     padding-right: 0.4em;
+     padding-left: 0.4em;
+     border-radius: 1.1em;
+     font-weight: 600;
+     text-align: center;
+     background-color: #00A884;
+     color: black;
+     display: inline-block;
+     padding-top: 0.3em;
+     line-height: 1;
+     vertical-align: top;
+     min-height: 1em;
+     font-size: 0.75rem;
+     min-width: 0.9em;
+     padding-bottom: 0.4em;
+ }
+ 
+ 

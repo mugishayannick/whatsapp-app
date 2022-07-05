@@ -1,6 +1,8 @@
 import React from 'react';
 import './sideComponent.css';
-import LeftNavBar from '../navBar/leftNavBar'
+import LeftNavBar from '../navBar/leftNavBar';
+import RightNavBar from '../navBar/rightNavBar';
+
 
 function sideBar() {
     return (
@@ -9,8 +11,12 @@ function sideBar() {
 
         <LeftNavBar/>
 
+        
+        
+
     
         </div>
+        <RightNavBar/>
         </>
     );
 }
